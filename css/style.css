@@ -29,6 +29,7 @@ html {
     font-family: 'DM Sans', sans-serif;
 }
 
+/* _____-----*-----_____ */
 header {
     position: relative;
     display: flex;
@@ -93,6 +94,7 @@ header img {
     background-image: url("../assets/icons/down-arrow.svg");
 }
 
+/* _____-----*-----_____ */
 main {
     width: 100%;
     height: auto;
@@ -133,6 +135,7 @@ main {
     color: var(--gris);
 }
 
+/* _____-----*-----_____ */
 .main-currency-table {
     width: 70%;
     min-width: 235px;
@@ -203,6 +206,7 @@ main {
     border-radius: 8px;
 }
 
+/* _____-----*-----_____ */
 .main-comission-table {
     width: 70%;
     min-width: 235px;
@@ -261,8 +265,9 @@ main {
     font-size: 1.2rem;
     line-height: 1.5rem;
     color: var(--warm-black);
-} 
+}
 
+/* _____-----*-----_____ */
 .main-product-detail {
     position: relative;
     width: 100%;
@@ -300,12 +305,12 @@ main {
     color: #757575;
 }
 
-/* .product-cards__Container{} */
+/* _____-----*-----_____ */
 .product-detail__Cards{
     width: 80%;
     min-width: 288px;
     max-width: 400px;
-    height: 150px;
+    min-height: 150px;
     margin: 15px auto;
     color: var(--warm-black);
     border-radius: 8px;
@@ -364,4 +369,24 @@ main {
     font-weight: 500;
     line-height: 1.8rem;
     color: var(--grey);
+}
+
+/* _____-----*-----_____ */
+.bitcoin-img-container{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('../assets/img/bitcoinbaby2x.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.bitcoin-img-container h2{
+    padding-top: 16px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--off-white);
+
 }
