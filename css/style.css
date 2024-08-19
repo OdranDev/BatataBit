@@ -417,13 +417,23 @@ main {
     line-height: 1.8rem;
     color: var(--gris);
 }
+/* _____-----*-----_____ */
+.plans-container__Slider{
+    margin: 0 24px;
+    display: flex;
+    height: 350px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
 .plans-container__Card {
     position: relative;
+    scroll-snap-align: center;
     width: 60%;
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto;
+    margin: 24px;
     padding: 0 16px;
     border-radius: 16px;
     box-shadow: 0 12px 24px rgba(90, 70, 40, 0.2)
@@ -433,9 +443,6 @@ main {
 }
 .plans-container__Slider .blue {
     background-color: var(--soft-blue);
-}
-.plans__Title .black{
-    /* color: var(--off-white); */
 }
 .plans-container__Slider .black {
     color: var(--grey);
@@ -474,9 +481,6 @@ main {
     line-height: 1.8rem;
     color: var(--black);
 }
-.plan-info-container .black, .plan-info-container .plan-card__Title {
-    color: var(--off-white);
-}
 .plan-info-container .plan-card__Price{
     position: relative;
     padding: 5px 0;
@@ -484,6 +488,9 @@ main {
     font-weight: bold;
     line-height: 6rem;
     color: var(--black);
+}
+.plan-info-container .black {
+    color: var(--off-white);
 }
 .plan-info-container .plan-card__Price span {
     position: absolute;
