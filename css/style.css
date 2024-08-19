@@ -417,5 +417,58 @@ main {
     line-height: 1.8rem;
     color: var(--gris);
 }
-/* .plans-container__Slider{}
-.plans-container__Card{} */
+/* .plans-container__Slider{} */
+.plans-container__Card{
+    position: relative;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px auto;
+    padding: 0 16px;
+    background-color: var(--off-white);
+    border-radius: 16px;
+    box-shadow: 0 12px 24px rgba(90, 70, 40, 0.2)
+}
+.plans-container__Card .recommended{
+    position: absolute;
+    width: 30%;
+    min-width: 100px;
+    max-width: 400px;
+    height: 30px;
+    padding: 6px;
+    top: -15px;
+    left: calc(50% - 50px);
+    font-size: 1.2rem;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    color: var(--off-white);
+}
+/* .plans-container__Card .plan-info-container{} */
+.plan-info-container .plan-card__Title{
+    padding: 30px 0 8px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+.plan-info-container .plan-card__Price{
+    position: relative;
+    padding: 5px 0;
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 6rem;
+    color: var(--black);
+}
+.plan-info-container .plan-card__Price span {
+    position: absolute;
+    top: -8px;
+    left: 60px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.plan-info-container .plan-card__Saving{
+    font-size: 1.2rem;
+    color: var(--gris);
+}
+/* .plan-info-container .plan-card__Button-CallToAction{} */
