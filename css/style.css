@@ -25,6 +25,7 @@
     box-sizing: border-box;
 }
 html {
+    scroll-behavior: smooth;
     font-size: 62.5%; 
     font-family: 'DM Sans', sans-serif;
 }
@@ -390,3 +391,31 @@ main {
     color: var(--off-white);
 
 }
+
+/* _____-----*-----_____ */
+.main-plans-container{
+    width: 100%;
+    min-width: 320px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.main-plans-container .plans__Title{
+    width: 90%;
+    min-width: 320px;
+    height: auto;
+    margin: 50px auto;
+}
+.main-plans-container .plans__Title h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;   
+}
+.main-plans-container .plans__Title p {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--gris);
+}
+/* .plans-container__Slider{}
+.plans-container__Card{} */
