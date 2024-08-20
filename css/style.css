@@ -23,6 +23,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 html {
     scroll-behavior: smooth;
@@ -419,9 +421,12 @@ main {
 }
 /* _____-----*-----_____ */
 .plans-container__Slider{
-    margin: 0 24px;
-    display: flex;
+    padding: 0 6rem;
     height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 24px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
@@ -430,10 +435,9 @@ main {
     position: relative;
     scroll-snap-align: center;
     width: 60%;
-    min-width: 230px;
+    min-width: 190px;
     max-width: 300px;
     height: 250px;
-    margin: 24px;
     padding: 0 16px;
     border-radius: 16px;
     box-shadow: 0 12px 24px rgba(90, 70, 40, 0.2)
@@ -470,7 +474,6 @@ main {
     color: var(--off-white);
 }
 .plans-container__Card .black {
-    background-color: var(--black);
     border-radius: 8px;
     color: var(--off-white);
 }
@@ -495,7 +498,7 @@ main {
 .plan-info-container .plan-card__Price span {
     position: absolute;
     top: -8px;
-    left: 50px;
+    left: 30px;
     font-size: 1.2rem;
     font-weight: 500;
 }
@@ -527,4 +530,23 @@ main {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    vertical-align: text-bottom;
+}
+
+/* _____-----*-----_____ */
+footer {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--bitcoin-orange);
+}
+footer .left ul {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+}
+footer .left a {
+    color: var(--off-white);
 }
