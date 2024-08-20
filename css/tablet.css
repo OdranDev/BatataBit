@@ -1,0 +1,14 @@
+.main-tables-container {
+    gap: 24px;
+}
+
+.product-cards__Container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.plans-container__Slider {
+    justify-content: center;
+}
